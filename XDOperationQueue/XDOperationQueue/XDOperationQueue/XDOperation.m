@@ -1019,7 +1019,7 @@ static NSComparisonResult compareOperationEffectivePriorities(id obj1, id obj2, 
         [_pendingOperations sortUsingFunction:&compareOperationEffectivePriorities context:_pendingOperations];
         return;
     }
-    [_pendingOperations _mutate];
+    //[_pendingOperations _mutate];
     NSRange range = NSMakeRange(0, count);
     id objs[kMaxCount];
     CFIndex indexes[kMaxCount];
@@ -1032,7 +1032,10 @@ static NSComparisonResult compareOperationEffectivePriorities(id obj1, id obj2, 
     for (int i = 0; i < count; i++) {
         indexes[i] = (CFIndex)objs[indexes[i]]; // re-use indexes allocation
     }
-    [_pendingOperations replaceObjectsInRange:range withObjects:(id *)indexes count:count];
+    
+    NSArray *newPendingOperations = [[NSArray alloc] initWithObjects:(id *)indexes count:count];
+    [_pendingOperations replaceObjectsInRange:range withObjectsFromArray:newPendingOperations];
+    //[_pendingOperations replaceObjectsInRange:range withObjects:(id *)indexes count:count];
     return;
 }
 

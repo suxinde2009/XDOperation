@@ -13,29 +13,10 @@
 		62FD2BDE1C00165A0024FA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FD2BDC1C00165A0024FA5E /* Main.storyboard */; };
 		62FD2BE01C00165A0024FA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FD2BDF1C00165A0024FA5E /* Assets.xcassets */; };
 		62FD2BE31C00165A0024FA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FD2BE11C00165A0024FA5E /* LaunchScreen.storyboard */; };
-		62FD2BEE1C00165A0024FA5E /* XDOperationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2BED1C00165A0024FA5E /* XDOperationQueueTests.m */; };
-		62FD2BF91C00165A0024FA5E /* XDOperationQueueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2BF81C00165A0024FA5E /* XDOperationQueueUITests.m */; };
 		62FD2C0F1C0016C50024FA5E /* XDOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2C0E1C0016C50024FA5E /* XDOperation.m */; };
 		62FD2C131C001D670024FA5E /* XDTestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2C121C001D670024FA5E /* XDTestOperation.m */; };
 		62FD2C161C001E450024FA5E /* XDTestOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD2C151C001E450024FA5E /* XDTestOperation2.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		62FD2BEA1C00165A0024FA5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62FD2BC81C0016590024FA5E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62FD2BCF1C00165A0024FA5E;
-			remoteInfo = XDOperationQueue;
-		};
-		62FD2BF51C00165A0024FA5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62FD2BC81C0016590024FA5E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62FD2BCF1C00165A0024FA5E;
-			remoteInfo = XDOperationQueue;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		62FD2BD01C00165A0024FA5E /* XDOperationQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDOperationQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,10 +29,8 @@
 		62FD2BDF1C00165A0024FA5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FD2BE21C00165A0024FA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FD2BE41C00165A0024FA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62FD2BE91C00165A0024FA5E /* XDOperationQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDOperationQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FD2BED1C00165A0024FA5E /* XDOperationQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDOperationQueueTests.m; sourceTree = "<group>"; };
 		62FD2BEF1C00165A0024FA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62FD2BF41C00165A0024FA5E /* XDOperationQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDOperationQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FD2BF81C00165A0024FA5E /* XDOperationQueueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDOperationQueueUITests.m; sourceTree = "<group>"; };
 		62FD2BFA1C00165A0024FA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62FD2C0D1C0016C50024FA5E /* XDOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDOperation.h; sourceTree = "<group>"; };
@@ -65,20 +44,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		62FD2BCD1C00165A0024FA5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FD2BE61C00165A0024FA5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FD2BF11C00165A0024FA5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				62FD2BD01C00165A0024FA5E /* XDOperationQueue.app */,
-				62FD2BE91C00165A0024FA5E /* XDOperationQueueTests.xctest */,
-				62FD2BF41C00165A0024FA5E /* XDOperationQueueUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,42 +148,6 @@
 			productReference = 62FD2BD01C00165A0024FA5E /* XDOperationQueue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62FD2BE81C00165A0024FA5E /* XDOperationQueueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62FD2C001C00165A0024FA5E /* Build configuration list for PBXNativeTarget "XDOperationQueueTests" */;
-			buildPhases = (
-				62FD2BE51C00165A0024FA5E /* Sources */,
-				62FD2BE61C00165A0024FA5E /* Frameworks */,
-				62FD2BE71C00165A0024FA5E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62FD2BEB1C00165A0024FA5E /* PBXTargetDependency */,
-			);
-			name = XDOperationQueueTests;
-			productName = XDOperationQueueTests;
-			productReference = 62FD2BE91C00165A0024FA5E /* XDOperationQueueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		62FD2BF31C00165A0024FA5E /* XDOperationQueueUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62FD2C031C00165A0024FA5E /* Build configuration list for PBXNativeTarget "XDOperationQueueUITests" */;
-			buildPhases = (
-				62FD2BF01C00165A0024FA5E /* Sources */,
-				62FD2BF11C00165A0024FA5E /* Frameworks */,
-				62FD2BF21C00165A0024FA5E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62FD2BF61C00165A0024FA5E /* PBXTargetDependency */,
-			);
-			name = XDOperationQueueUITests;
-			productName = XDOperationQueueUITests;
-			productReference = 62FD2BF41C00165A0024FA5E /* XDOperationQueueUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,14 +159,6 @@
 				TargetAttributes = {
 					62FD2BCF1C00165A0024FA5E = {
 						CreatedOnToolsVersion = 7.1;
-					};
-					62FD2BE81C00165A0024FA5E = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 62FD2BCF1C00165A0024FA5E;
-					};
-					62FD2BF31C00165A0024FA5E = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 62FD2BCF1C00165A0024FA5E;
 					};
 				};
 			};
@@ -257,8 +176,6 @@
 			projectRoot = "";
 			targets = (
 				62FD2BCF1C00165A0024FA5E /* XDOperationQueue */,
-				62FD2BE81C00165A0024FA5E /* XDOperationQueueTests */,
-				62FD2BF31C00165A0024FA5E /* XDOperationQueueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,20 +188,6 @@
 				62FD2BE31C00165A0024FA5E /* LaunchScreen.storyboard in Resources */,
 				62FD2BE01C00165A0024FA5E /* Assets.xcassets in Resources */,
 				62FD2BDE1C00165A0024FA5E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FD2BE71C00165A0024FA5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FD2BF21C00165A0024FA5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,36 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62FD2BE51C00165A0024FA5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62FD2BEE1C00165A0024FA5E /* XDOperationQueueTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FD2BF01C00165A0024FA5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62FD2BF91C00165A0024FA5E /* XDOperationQueueUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62FD2BEB1C00165A0024FA5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62FD2BCF1C00165A0024FA5E /* XDOperationQueue */;
-			targetProxy = 62FD2BEA1C00165A0024FA5E /* PBXContainerItemProxy */;
-		};
-		62FD2BF61C00165A0024FA5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62FD2BCF1C00165A0024FA5E /* XDOperationQueue */;
-			targetProxy = 62FD2BF51C00165A0024FA5E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		62FD2BDC1C00165A0024FA5E /* Main.storyboard */ = {
@@ -391,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -429,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,54 +335,6 @@
 			};
 			name = Release;
 		};
-		62FD2C011C00165A0024FA5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = XDOperationQueueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.su.XDOperationQueueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDOperationQueue.app/XDOperationQueue";
-			};
-			name = Debug;
-		};
-		62FD2C021C00165A0024FA5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = XDOperationQueueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.su.XDOperationQueueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDOperationQueue.app/XDOperationQueue";
-			};
-			name = Release;
-		};
-		62FD2C041C00165A0024FA5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = XDOperationQueueUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.su.XDOperationQueueUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = XDOperationQueue;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		62FD2C051C00165A0024FA5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = XDOperationQueueUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.su.XDOperationQueueUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = XDOperationQueue;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,22 +354,7 @@
 				62FD2BFF1C00165A0024FA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		62FD2C001C00165A0024FA5E /* Build configuration list for PBXNativeTarget "XDOperationQueueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62FD2C011C00165A0024FA5E /* Debug */,
-				62FD2C021C00165A0024FA5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		62FD2C031C00165A0024FA5E /* Build configuration list for PBXNativeTarget "XDOperationQueueUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62FD2C041C00165A0024FA5E /* Debug */,
-				62FD2C051C00165A0024FA5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
